@@ -6,7 +6,7 @@ FROM bravissimolabs/alpine-git:latest
 # Who dat boy
 MAINTAINER Brian Muhia poppingtonic@gmail.com
 
-RUN git clone https://github.com/poppingtonic/pynbo-blog
+RUN git clone https://github.com/Python-Nairobi/pynbo-blog
 
 # Work in this directory, from here
 WORKDIR pynbo-blog
